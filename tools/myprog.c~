@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int glob_var = 0;
+
+void setGlobVar(void){
+   glob_var = 100;
+}
+
+int main(){
+  setGlobVar();
+  return 0;
+}
